@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+
+    <title>Signin Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="signin.css" rel="stylesheet"> -->
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin">
+      <!-- <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+      <h1 class="h3 mb-3 font-weight-normal">机房巡视记录</h1>
+      <label for="inputZt" class="form-inline">工作类别</label>
+      <select id="inputZt" name="inputZt" class="form-control" autofocus>
+			<option>日常巡检</option>
+			<option>参数配置</option>
+			<option>硬件维护</option>
+			<option>软件维护</option>
+			<option>其他</option>
+			
+			
+		</select>
+      <label for="inputCz" class="form-inline">操作记录</label>
+      <input type="text" id="inputCz" class="form-control" placeholder="正常/设备操作情况" >
+	  <label for="inputRy" class="form-inline">巡视人员</label>
+    
+      <select id="inputRy" name="inputRy" class="form-control" >
+			<option>武喜凤</option>
+			<option>朱彦龙</option>
+			<option>宋佳</option>
+			<option>程凯伦</option>
+			<option>齐超</option>
+		</select>
+		<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">武喜凤</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">齐超</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+  <label class="form-check-label" for="inlineCheckbox3">宋佳</label>
+</div>
+		<label for="inputWl" class="form-inline">外来人员</label>
+		<input type="text" id="inputWl" class="form-control" placeholder="..."><br/>
+	  <button class="btn btn-lg btn-primary btn-block" type="submit">提交</button>
+      
+    </form>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
